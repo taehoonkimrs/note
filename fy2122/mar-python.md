@@ -118,13 +118,24 @@ $ pipenv run python test.py
 
 ```
 import pyvisa as visa
+from configparser import ConfigParser
 
+c = ConfigParser()
+
+c.read('.\settings.ini', encoding='utf-8')
+host = c.get('instrument', 'host')
 rm = visa.ResourceManager()
-vi = rm.open_resource(f'TCPIP::172.25.230.81::INSTR')
+vi = rm.open_resource(f'TCPIP::{host}::INSTR')
 idn = vi.query('*IDN?')
 
 print(idn)
+```
 
+settings.ini
+
+```
+[instrument]
+host=172.25.230.81
 ```
 
 ### pyinstaller
