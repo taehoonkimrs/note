@@ -12,7 +12,7 @@
 [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
 
 - 파이썬 코딩을 위한 코드 편집기
-- 설치 후 python extension 설치
+- 설치 후 python extension 설치\
   <img src="img/python5.png" width="80%" height="80%">
 
 ## 기본문법 연습문제
