@@ -16,7 +16,7 @@
    ```
 4. 에디터가 종료될 때까지 대기
    ```
-   $ git config --global core.editor "core --wait"
+   $ git config --global core.editor "code --wait"
    ```
 5. user name/email 설정
    ```
