@@ -5,15 +5,15 @@
 [Python 3.7.8](https://www.python.org/ftp/python/3.7.8/python-3.7.8.exe)
 
 - Add Python 3.7 to PATH 체크 후 Install Now
-  <img src="img/python1.png" width="80%" height="80%">
+  <img src="img/python1.png" width="100%" height="100%">
 - 설치 완료 후 cmd에서 py 명령어 동작 확인
-  <img src="img/python2.png" width="80%" height="80%">
+  <img src="img/python2.png" width="100%" height="100%">
 
 [Visual Studio Code](https://code.visualstudio.com/docs/?dv=win)
 
 - 파이썬 코딩을 위한 코드 편집기
 - 설치 후 python extension 설치\
-  <img src="img/python5.png" width="80%" height="80%">
+  <img src="img/python5.png" width="100%" height="100%">
 
 ## 기본문법 연습문제
 
@@ -52,7 +52,7 @@ $ pip list
 - pipenv란
   pipenv는 파이썬에서 패키지를 프로젝트 단위로 관리할 수 있도록 도와주는 패키지 관리도구
   기본적으로 pip를 기반으로 동작하지만, 프로젝트 별로 격리된 가상 환경과 프로젝트 단위의 패키지 관리 메커니즘을 제공합니다.
-  <img src="img/python3.png" width="80%" height="80%">
+  <img src="img/python3.png" width="100%" height="100%">
 
 - pipenv 설치
 
@@ -121,7 +121,7 @@ import pyvisa as visa
 from configparser import ConfigParser
 
 c = ConfigParser()
-
+dddddd
 c.read('.\settings.ini', encoding='utf-8')
 host = c.get('instrument', 'host')
 rm = visa.ResourceManager()
